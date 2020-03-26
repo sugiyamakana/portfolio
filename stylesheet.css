@@ -1,0 +1,1214 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    width: 375px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#wrapper{
+    width: 375px;
+    padding: 0;
+    margin: 0 auto;
+    background: white;
+}
+
+
+
+.home header{
+    background: url(img/header.jpg);
+    width: 100vw;
+    height: 317px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.home .header_rogo{
+    width: 90px;
+    height: 77px;
+    background: url(img/rogo_white.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+    left: 49px;
+    top: 87px;
+    
+}
+
+.home header h2{
+    width: 153px;
+    height: 72px;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+
+.title{
+    width: 220px;
+    height: 34px;
+    margin: 48px auto 0 auto;
+    padding-bottom: 3px;
+    text-align: center;
+    position: relative;
+}
+
+.home .title::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    display: inline-block;
+    width: 26px;/*線の長さ*/
+    height: 2px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #E69292;/*線の色*/
+    border-radius: 2px;/*線の丸み*/
+  }
+
+
+.home .about_us{
+    background: url(img/about_me.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 7px;
+    width: 335px;
+    height: 230px;
+    margin: 16px auto 0 auto;
+    padding: 0;
+    box-shadow: 0 0 6px #777777;
+}
+
+
+.home .about_site{
+    background: url(img/saito.JPG);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 7px;
+    width: 335px;
+    height: 230px;
+    margin: 16px auto 0 auto;
+    padding: 0;
+    box-shadow: 0 0 6px #777777;
+}
+
+
+
+
+.home .about_record{
+    width: 335px;
+    height: 200px;
+    margin: 16px auto 0 auto;
+    padding: 0;
+}
+
+.home .record1{
+    float: left;
+    width: 163px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.home .record1_img{
+    background: #777777;
+    width: 163px;
+    height: 103px;
+    border-radius: 7px;
+    box-shadow: 0 0 6px #777777;
+    padding: 0;
+    margin: 0;
+}
+
+.home .record_content{
+    width: 163px;
+    height: 25px;
+}
+
+
+.home .record2{
+    float: right;
+    width: 163px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.home .record2_img{
+    background: #777777;
+    float: right;
+    width: 163px;
+    height: 103px;
+    border-radius: 7px;
+    box-shadow: 0 0 6px #777777;
+    padding: 0;
+    margin: 0;
+}
+
+
+.home .about_record p{
+    color: #7B7B7B;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.home .about_record h3{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+
+.home a :hover{
+    opacity: 0.6;
+}
+
+
+.home #date{
+    text-align: center;
+    width: 335px;
+    margin: 16px auto 0 auto;
+    padding: 0;
+}
+
+.home #date li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.home #date li::before{
+    content: attr(date-post-date);
+    color: #7B7B7B;
+    margin-right: 1em;
+}
+
+footer{
+    width: 375px;
+    height: 50px;
+    background: #E8E8E8;
+    margin: 65px auto 0 auto;
+    padding: 12px 0;
+    text-align: center;
+    color: #707070;
+}
+
+
+/**杉山果那について-----------------------------**/
+
+
+.about_me{
+    width: 375px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 375px;
+    height: 60px;
+    text-align: left;
+    padding-left: 28px;
+    margin: 0;
+    background: white;
+}
+
+.nav_top{
+    width: 40px;
+    height: 32px;
+    background: url(img/rogo_pink.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.about_me header{
+    background: url(img/about_me.jpg);
+    width: 100vw;
+    height: 293px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+
+.about_me .kana{
+    width: 335px;
+    height: 73px;
+    margin: 20px auto 53px auto;
+}
+
+.about_me .vision{
+    width: 375px;
+    height: 230px;
+    padding: 21px 20px 27px 20px;
+    background: #E8E8E8;
+    margin: 0 auto;
+}
+
+.about_me .vision h2{
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    padding: 0;
+}
+
+.about_me .vision p{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.about_me .me{
+    width: 335px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.about_me ul{
+    padding: 0 25px;
+}
+
+
+
+
+
+
+
+.about_me .skill_content1{
+    float: left;
+    width: 163px;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    color: #797979;
+    font-size: 14px;
+}
+
+.about_me .skill1{
+    background: url(img/skill1.jpg);
+    width: 163px;
+    height: 103px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.about_me .skill_content2{
+    float: right;
+    width: 163px;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    color: #797979;
+    font-size: 14px;
+}
+
+
+
+.about_me .skill2{
+    background: url(img/skill2.jpg);
+    width: 163px;
+    height: 103px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.about_me .skill_content2 p{
+    padding: 6 0 0 0;
+    margin: 0;
+}
+
+.about_me .skill_content1 p{
+    padding: 6 0 0 0;
+    margin: 0;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+.cocoa{
+    width: 375px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cocoa_img{
+    background: url(img/cocoa.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 334px;
+    height: 236px;
+    margin: 0 auto;
+}
+
+
+.cocoa p{
+    width: 334px;
+    margin: 0 auto;
+    color: #797979;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.contact{
+    width: 375px;
+    margin: 125px auto 55px auto;
+    padding: 0;
+    text-align: center;
+    color: #797979;
+}
+
+.aicon{
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 6px #777777;
+    margin: 15px auto 0 auto;
+}
+
+.contact p{
+    margin: 14px auto 0 auto;
+    font-size: 14px;
+}
+
+
+.btn{
+    width: 335px;
+    height: 74px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background: #E69292;
+    text-align: center;
+    box-shadow: 0 0 6px #777777;
+}
+
+.btn img{
+    margin: 20px auto;
+}
+
+
+
+
+
+/**このサイトについて--------------------------**/
+
+.about_site{
+    width: 375px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 375px;
+    height: 60px;
+    text-align: left;
+    padding-left: 28px;
+    margin: 0;
+    background: white;
+}
+
+.nav_top{
+    width: 40px;
+    height: 32px;
+    background: url(img/rogo_pink.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.about_site header{
+    background: url(img/saito.JPG);
+    width: 100vw;
+    height: 293px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+
+.about_site .timing{
+    width: 335px;
+    margin: 20px auto 53px auto;
+}
+
+.about_site span{
+    font-weight: bold;
+}
+
+.about_site .name{
+    width: 375px;
+    margin: 20px auto 53px auto;
+    background: #E8E8E8;
+    padding: 26px 0;
+    text-align: center;
+}
+
+.about_site .watashi{
+    margin: 35px 0;
+}
+
+.about_site .name p{
+    width: 335px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+/**作品・記憶-------------------------------**/
+
+
+.record{
+    width: 375px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.record header{
+    background: gray;
+    width: 100vw;
+    height: 293px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.record .heading{
+    width: 197px;
+    height: 50px;
+    margin: 10px 0px 20px 22px;
+}
+
+.record .heading2{
+    width: 197px;
+    height: 20px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+
+.record .heading2 h3{
+    padding: 0;
+    margin: 0;
+}
+
+.record h3{
+    color: #7B7B7B;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.record h2{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.record .re_content{
+    width: 335px;
+    margin: 20px auto 20px auto;
+}
+
+.record .re_img{
+    width: 335px;
+    height: 175px;
+    margin: 0 auto;
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**PC**------------------------------------------**/
+
+
+@media screen and (min-width: 767px)  {/*ウィンドウ幅が767px以上の場合に適用*/
+
+    .home body{
+        background: white;
+        margin: 0;
+        padding: 0;
+        color: #333333;
+        width: 767px;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    /**
+    #wrapper{
+        width: 375px;
+        padding: 0;
+        margin: 0 auto;
+        background: white;
+    }
+    **/
+    
+    
+    .home header{
+        background: url(img/header.jpg);
+        width: 100vw;
+        height: 600px;
+        padding: 0;
+        margin: 0 auto;
+        color: white;
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+    }
+    
+    
+    
+    .home .header_rogo{
+        width: 160px;
+        height: 136px;
+        background: url(img/rogo_white.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: absolute;
+        left: 150px;
+        top: 178px;
+        
+    }
+    
+    .home header h2{
+        width: 280px;
+        height: 47px;
+        position: absolute;
+        top: 360px;
+        left: 91px;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    
+    .home #wrapper{
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .title{
+        width: 220px;
+        height: 34px;
+        margin: 114px auto 0 auto;
+        padding-bottom: 3px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .title::before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -3px;
+        display: inline-block;
+        width: 26px;/*線の長さ*/
+        height: 2px;/*線の太さ*/
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);/*位置調整*/
+        background-color: #E69292;/*線の色*/
+        border-radius: 2px;/*線の丸み*/
+      }
+    
+    
+    .home .about_us{
+        background: url(img/about_me.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 7px;
+        width:  686px;
+        height: 471px;
+        margin: 16px auto 0 auto;
+        padding: 0;
+        box-shadow: 0 0 6px #777777;
+    }
+    
+    
+    .home .about_site{
+        background: url(img/saito.JPG);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 7px;
+        width:  686px;
+        height: 471px;
+        margin: 16px auto 0 auto;
+        padding: 0;
+        box-shadow: 0 0 6px #777777;
+    }
+    
+    
+    
+    
+    .home .about_record{
+        width: 686px;
+        height: 265px;
+        margin: 16px auto 0 auto;
+        padding: 0;
+    }
+    
+    .home .record1{
+        float: left;
+        width: 334px;
+        height: 265px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .home .record1_img{
+        background: #777777;
+        width: 334px;
+        height: 221px;
+        border-radius: 7px;
+        box-shadow: 0 0 6px #777777;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .home .record_content{
+        width: 334px;
+        height: 54px;
+    }
+    
+    
+    .home .record2{
+        float: right;
+        width: 334px;
+        height: 265px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .home .record2_img{
+        background: #777777;
+        float: right;
+        width: 334px;
+        height: 221px;
+        border-radius: 7px;
+        box-shadow: 0 0 6px #777777;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    .home .about_record p{
+        color: #7B7B7B;
+        margin: 0;
+        padding-left: 5px;
+    }
+    
+    .home .about_record h3{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+    
+    
+    
+    .home a :hover{
+        opacity: 0.6;
+    }
+    
+    
+    .home #date{
+        text-align: center;
+        width: 335px;
+        margin: 16px auto 0 auto;
+        padding: 0;
+    }
+    
+    .home #date li{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .home #date li::before{
+        content: attr(date-post-date);
+        color: #7B7B7B;
+        margin-right: 1em;
+    }
+    
+    footer{
+        width: 100vw;
+        height: 101px;
+        background: #E8E8E8;
+        margin: 115px auto 0 auto;
+        padding: 24px 0;
+        text-align: center;
+        color: #707070;
+    }
+
+
+
+
+
+
+
+/**杉山果那について-----------------------------**/
+.about_me body{
+    background: white;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    width: 767px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+
+.about_me #wrapper{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.about_me{
+    width: 100vw;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100vw;
+    height: 70px;
+    text-align: left;
+    padding-left: 28px;
+    margin: 0;
+    background: white;
+}
+
+.nav_top{
+    width: 50px;
+    height: 42px;
+    background: url(img/rogo_pink.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.about_me header{
+    background: url(img/about_me.jpg);
+    width: 100vw;
+    height: 400px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+
+.about_me .kana{
+    width: 686px;
+    margin: 20px auto 53px auto;
+}
+
+.about_me .kana p{
+    text-align: left;
+}
+
+
+
+.about_me .vision{
+    width: 686px;
+    height: 320px;
+    padding: 41px 40px 47px 40px;
+    background: #E8E8E8;
+    margin: 0 auto;
+}
+
+.about_me .vision h2{
+    margin: 40px 0 0 0;
+    font-weight: normal;
+    padding: 0;
+}
+
+.about_me .vision p{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.about_me .me{
+    width: 686px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.about_me ul{
+    width: 600px;
+    padding: 0 50px;
+    text-align: left;
+    margin: 16px auto 36px auto;
+}
+
+
+
+
+
+
+
+.about_me .skill_content1{
+    float: left;
+    width: 326px;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    color: #797979;
+    font-size: 14px;
+}
+
+.about_me .skill1{
+    background: url(img/skill1.jpg);
+    width: 326px;
+    height: 260px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.about_me .skill_content2{
+    float: right;
+    width: 326px;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    color: #797979;
+    font-size: 14px;
+}
+
+
+
+.about_me .skill2{
+    background: url(img/skill2.jpg);
+    width: 326px;
+    height: 260px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.about_me .skill_content2 p{
+    padding: 6 0 0 0;
+    margin: 0;
+}
+
+.about_me .skill_content1 p{
+    padding: 6 0 0 0;
+    margin: 0;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+.cocoa{
+    width: 686px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cocoa_img{
+    background: url(img/cocoa.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 686px;
+    height: 472px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.cocoa p{
+    width: 400px;
+    margin: 0 auto;
+    color: #797979;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.contact{
+    width: 400px;
+    margin: 125px auto 55px auto;
+    padding: 0;
+    text-align: center;
+    color: #797979;
+}
+
+.aicon{
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 6px #777777;
+    margin: 15px auto 0 auto;
+}
+
+.contact p{
+    margin: 14px auto 0 auto;
+    font-size: 14px;
+}
+
+
+.btn{
+    width: 335px;
+    height: 74px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background: #E69292;
+    text-align: center;
+}
+
+.btn img{
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+/**このサイトについて--------------------------**/
+
+.about_site{
+    width: 100vw;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.about_site header{
+    background: url(img/saito.JPG);
+    width: 100vw;
+    height: 400px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+
+.about_site #wrapper{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.about_site #wrapper p{
+    text-align: left;
+}
+
+
+.about_site .timing{
+    width: 686px;
+    margin: 53px auto 53px auto;
+}
+
+.about_site span{
+    font-weight: bold;
+}
+
+.about_site .name{
+    width: 686px;
+    margin: 20px auto 53px auto;
+    background: #E8E8E8;
+    padding: 0.3px 0 30px 0;
+    text-align: center;
+}
+
+.about_site .watashi{
+    margin: 45px 0;
+}
+
+.about_site .name p{
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+
+
+/**作品・記憶----------------------------------**/ 
+
+
+
+.record{
+    width: 100vw;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.record #wrapper{
+    width: 686px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.record header{
+    background: gray;
+    width: 100vw;
+    height: 400px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.record .heading{
+    width: 197px;
+    height: 50px;
+    text-align: left;
+    margin: 40px 0;
+}
+
+.record .heading2{
+    width: 197px;
+    height: 20px;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.record .heading2 h3{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.record h3{
+    color: #7B7B7B;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.record h2{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+
+
+.record .re_content{
+    width: 686px;
+    margin: 40px auto 20px auto;
+    text-align: left;
+}
+
+.record .re_img{
+    width: 686px;
+    height: 350px;
+    margin: 0 auto;
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
